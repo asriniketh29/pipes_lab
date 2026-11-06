@@ -477,6 +477,9 @@ so it's fine if the text appears inside of a hashtag.
 > Edit the code block below with your command and its output
 > ```
 > $ unzip -p '/data/Twitter dataset/geoTwitter20-03-12.zip' >| grep -i "coronavirus" | grep "Claremont, CA" | jq '.["text"]'
+> ```
+
+> ```
 > "Huh?!🦦"
 > "Ready to battle Coronavirus. 😤😤😤 https://t.co/DXrh3suIOH"
 > "I wanna live Bitch 😂😂😂"
