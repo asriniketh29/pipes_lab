@@ -430,16 +430,19 @@ Notice that many of these tweets are in non-English languages.
 > Edit the code block below with your command and its output
 > ```
 > $ unzip -p '/data/Twitter dataset/geoTwitter20-04-01.zip' | head -n10 | jq '.["place"]["full_name"]'
-"San José, Costa Rica"
-"Phoenix, AZ"
-"Cibitung, Indonesia"
-null
-"Brasília, Brasil"
-null
-"São Paulo, Brasil"
-"Riyadh, Kingdom of Saudi Arabia"
-"Queens, NY"
-"Dorsten, Deutschland"
+> ```
+
+> ```
+> "San José, Costa Rica"
+> "Phoenix, AZ"
+> "Cibitung, Indonesia"
+> null
+> "Brasília, Brasil"
+> null
+> "São Paulo, Brasil"
+> "Riyadh, Kingdom of Saudi Arabia"
+> "Queens, NY"
+> "Dorsten, Deutschland"
 > ```
 
 # Part 5: Interesting queries
